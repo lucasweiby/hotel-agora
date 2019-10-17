@@ -1,0 +1,329 @@
+.logo-home {
+    width: 50px;
+    height: 50px;
+}
+
+.container-ps {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.container-ps-2 {
+  max-width: 100%;
+}
+
+.btn-home {
+  width: 50%;
+  border: none;
+  background-color: #ff880d;
+  color: #fff;
+  padding: 8px 64px;
+  margin-top: 8px;
+  height: 40px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+.btn-home:hover {
+  background-color: #e85c0c;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+@media only screen and (max-width: 991px) {
+  .btn-home {
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.home .navbar {
+  background: transparent !important;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.interna {
+  background-color: #fff !important;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    color: #fff !important;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    margin: 0 8px;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar .nav-link {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    padding: 16px 0;
+  }
+}
+
+.interna .nav-link {
+  color: #1e1e1e !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ff880d;
+}
+
+.hoteleiro {
+    background-color: #ff880d;
+    color: #fff !important;
+    transition: all 0.1s ease;
+    text-transform: uppercase;
+}
+
+.interna .hoteleiro {
+  color: #fff !important;
+}
+
+.hoteleiro:hover {
+    border-bottom: none !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    background-color: #e85c0c;
+    color: #fff !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .content {
+      height: auto;
+      position: relative;
+  }
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/img/andrew-neel-1354776-unsplash.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 991px) {
+  .home {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+  }
+}
+
+.home .home-title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 64px;
+    padding: 16px 0;
+}
+
+.home .home-title b {
+    font-weight: 900;
+}
+  
+@media only screen and (max-width: 991px) {
+    .home .home-title {
+      font-size: 32px;
+      text-align: center;
+    }
+}
+
+.home .card {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+}
+
+.home .form-label {
+    text-transform: uppercase;
+}
+
+.home .form-control {
+    border-radius: 0;
+    padding: 8px 16px;
+    height: auto;
+    font-weight: 300;
+    color: #1e1e1e;
+}
+
+.btn-search {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: #ff880d;
+    color: #fff;
+    padding: 8px 64px;
+    margin-top: 8px;
+    height: 40px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    font-weight: 500;
+}
+
+.btn-search:hover {
+    background-color: #00ACED;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown */
+.dropdown-menu {
+    width: 300px;
+    left: -64%;
+    font-family: "Raleway";
+    border-radius: 0;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  .dropdown-menu .submenu-head {
+    padding: 8px 16px;
+  }
+  .dropdown-menu .submenu-head::before {
+    content: "";
+    width: 110%;
+    height: 60px;
+    background-color: #ff880d;
+    position: absolute;
+    top: -10px;
+    left: -5%;
+    z-index: -1;
+    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+  }
+  @media only screen and (max-width: 991px) {
+    .dropdown-menu .submenu-head::before {
+      content: none;
+    }
+  }
+  .dropdown-menu .submenu-head .submenu-title {
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 9;
+    position: relative;
+    color: #fff;
+  }
+  @media only screen and (max-width: 991px) {
+    .dropdown-menu .submenu-head .submenu-title {
+      color: #ff880d;
+    }
+  }
+  .dropdown-menu .dropdown-item {
+    position: relative;
+    margin-top: 16px !important;
+  }
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #fff;
+  }
+  .dropdown-menu .dropdown-item .dropdown-title {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .dropdown-menu .dropdown-item .dropdown-text {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .dropdown-menu .dropdown-item .dropdown-link {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.1s ease;
+  }
+  .dropdown-menu .dropdown-item .dropdown-link:hover {
+    color: #ff002b;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .navbar .navbar-toggler {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-color: #ff880d;
+    }
+    .navbar .navbar-toggler i {
+      color: #ff880d;
+    }
+  }
+
+
+  .home .more {
+    width: 100%;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  .home .more i {
+    color: #fff;
+    font-size: 32px;
+  }
+  @media only screen and (max-width: 991px) {
+    .home .more {
+      position: relative;
+      padding: 16px 0;
+    }
+  }
+  
+  .home .DateRangePicker, .DateRangePickerInput__withBorder {
+    width: 100%;
+  }
+
+  .home .DateInput {
+    width: 40% !important;
+  }
+
+  .DateInput_input__focused {
+    border-bottom-color: #ff880d !important;
+  }

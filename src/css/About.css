@@ -1,0 +1,241 @@
+#skills {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-family: "Raleway";
+    background-color: #1e1e1e;
+    color: #fff;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    #skills {
+      overflow: hidden;
+    }
+  }
+  #skills .container {
+    height: 100%;
+  }
+  #skills .container .row-sobre {
+    height: 100%;
+  }
+  #skills .container .row-sobre .sobre-title {
+    font-weight: 700;
+    margin-bottom: 64px;
+  }
+  #skills .container .row-sobre .col-md-4 {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  #skills .container .row-sobre i {
+    font-size: 64px;
+    color: #ff880d;
+    margin: 16px auto;
+  }
+
+  #sobre {
+    padding: 128px 0 100px;
+    font-family: "Raleway";
+    background-color: #ff880d;
+    color: #fff;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    #sobre {
+      padding: 64px 16px;
+      overflow: hidden;
+    }
+  }
+  #sobre .title {
+    font-size: 80px;
+    color: #1e1e1e;
+    font-weight: 900;
+  }
+  @media only screen and (max-width: 991px) {
+    #sobre .title {
+      font-size: 64px;
+      line-height: 1;
+      margin-bottom: 32px;
+    }
+  }
+  #sobre .sobre-desc b {
+    text-transform: uppercase;
+    color: #1e1e1e;
+  }
+  @media only screen and (max-width: 991px) {
+    #sobre .sobre-desc {
+      text-align: left;
+    }
+  }
+
+  #onde {
+    padding: 64px 0;
+    font-family: "Raleway";
+    background-image: url("../assets/img/bg-cidades-2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color; */
+    color: #fff;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    #onde {
+      padding: 64px 16px;
+      overflow: hidden;
+    }
+  }
+  #onde .title {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 900;
+  }
+  @media only screen and (max-width: 991px) {
+    #onde .title {
+      font-size: 64px;
+      line-height: 1;
+      margin-bottom: 32px;
+    }
+  }
+  #onde .sobre-desc {
+    text-align: justify;
+  }
+  #onde .sobre-desc b {
+    text-transform: uppercase;
+    color: #fff;
+  }
+  #onde .subtitle {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+  }
+  #onde h6 {
+    font-weight: 700;
+    color: #fff;
+  }
+
+ .list-cities {
+    margin: 16px 0;
+    list-style: none;
+    display: block;
+    padding: 0;
+  }
+
+ .list-cities .cities-item {
+    width: 32%;
+    float: left;
+    margin-bottom: 16px;
+    background-color: #fff;
+    color: #1e1e1e;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  @media only screen and (max-width: 991px) {
+    .list-cities .cities-item {
+      width: 100%;
+    }
+  }
+  .list-cities .cities-item:not(:last-child) {
+    margin-right: 8px;
+  }
+  @media only screen and (max-width: 991px) {
+    .list-cities .cities-item:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+  }
+  .list-cities .cities-item .thumb {
+    width: 100%;
+    height: 128px;
+    background-image: url("https://r-ec.bstatic.com/images/hotel/max1024x768/499/49948850.jpg");
+    background-size: cover;
+  }
+  .list-cities .cities-item .body {
+    padding: 8px;
+  }
+  .list-cities .cities-item .city {
+    margin-bottom: 0;
+  }
+  .list-cities .cities-item .state {
+    color: #999;
+  }
+  .more-cities {
+    background-color: #fff;
+    color: #1e1e1e;
+    padding: 8px;
+    width: 256px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    border: none;
+    border-radius: 0;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    text-transform: uppercase;
+  }
+  .more-cities:hover {
+    text-decoration: none;
+    background-color: #ff880d;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+  .modal .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .modal .modal-dialog {
+    max-width: 80%;
+  }
+  @media only screen and (max-width: 991px) {
+    .modal .modal-dialog {
+      margin: 5% auto;
+    }
+  }
+  .modal div {
+    border-bottom: none;
+    border-top: none;
+  }
+  .modal .modal-title {
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .modal .list-cities {
+    flex-wrap: wrap;
+  }
+  .modal .list-cities .cities-item {
+    background-color: #1e1e1e;
+    color: #fff;
+    box-shadow: none;
+    margin: 4px;
+    border-left: 2px solid #ff880d;
+    width: 24%;
+    transition: all 0.1s ease;
+  }
+  .modal .list-cities .cities-item:hover {
+    border-left: 4px solid #ff880d;
+  }
+  @media only screen and (max-width: 991px) {
+    .modal .list-cities .cities-item {
+      width: 48%;
+      margin: 2px;
+    }
+    .modal .list-cities .cities-item h5 {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    .modal .list-cities .cities-item small {
+      font-size: 10px;
+    }
+  }
+  

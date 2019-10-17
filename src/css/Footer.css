@@ -1,0 +1,125 @@
+.footer {
+    padding: 64px 0;
+    background-color: #1e1e1e;
+    position: relative;
+  }
+  .footer::after {
+    content: " ";
+    width: 100%;
+    height: 100px;
+    background: url("../assets/img/city.svg");
+    background-size: auto 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  @media only screen and (max-width: 991px) {
+    .footer {
+      text-align: center;
+    }
+    .footer .logo-footer {
+      max-width: 40%;
+    }
+    .footer .cadastur {
+      max-width: 64%;
+    }
+    .footer .div-margin:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+  .footer .resume {
+    color: #fff;
+  }
+  .footer .footer-lista {
+    list-style: none;
+    padding: 0;
+  }
+  .footer .footer-item {
+    color: #ff880d;
+    margin-bottom: 8px;
+  }
+  .footer .footer-link {
+    color: #fff;
+    margin-left: 8px;
+    font-weight: 500;
+    transition: all 0.1s ease;
+  }
+  .footer .footer-link:hover {
+    color: #00aced;
+    text-decoration: none;
+  }
+  .footer .brand {
+    width: 128px;
+  }
+  .footer .nav-link {
+    display: initial;
+  }
+  .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
+    color: #ff880d;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .footer p {
+    color: #fff;
+    font-weight: 500;
+  }
+  .footer small {
+    font-weight: 300;
+  }
+  .footer .dropdown-link {
+    color: #00aced;
+    transition: all 0.2s ease;
+  }
+  .footer .dropdown-link:hover {
+    color: #ff002b;
+    text-decoration: none;
+  }
+  .footer .copy {
+    padding-top: 16px;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .footer .social {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .footer .social .social-item {
+    color: #1e1e1e;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  .footer .social .social-item:hover {
+    background-color: #00aced;
+    color: #fff;
+  }
+  .footer .social .social-item:not(:last-child) {
+    margin-right: 8px;
+  }
+  .footer .social .social-item a {
+    color: #1e1e1e;
+  }
+  .footer .social .social-item a:hover {
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 991px) {
+    .footer .social {
+      justify-content: center;
+    }
+  }

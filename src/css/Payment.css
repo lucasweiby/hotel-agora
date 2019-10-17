@@ -1,0 +1,101 @@
+.pagamentos {
+    width: 100%;
+    height: auto;
+    z-index: 99999;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    padding: 32px 16px;
+  }
+
+  .ixTfPP {
+    width: 100%;
+  }
+
+  .kJnpoy {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0;
+  }
+
+  .kJnpoy input {
+    padding: 0 !important;
+  }
+
+  .pagamentos .pagamento-header {
+    font-family: "Raleway";
+    border-bottom: 1px solid #ccc;
+    display: flex;
+  }
+  .pagamentos .pagamento-header h1 {
+    font-weight: 700px;
+    color: #ff880d;
+    width: 100%;
+  }
+  .pagamentos .pagamento-header .close-payment {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+  }
+  .pagamentos .pagamento-header .close-payment:hover {
+    color: #e85c0c;
+  }
+  .pagamentos .pagamento-one {
+    height: 80%;
+    overflow-x: hidden;
+    padding: 0 8px;
+  }
+  .pagamentos .pagamento-one .dados-pessoais {
+    font-family: "Raleway";
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .pagamentos .pagamento-one .dados input {
+    border-radius: 0;
+    padding: 8px;
+  }
+  .pagamentos .pagamento-one .dados .btn-home {
+    width: 100%;
+  }
+  .pagamentos .pagamento-one .dados .btn-home:hover {
+    background-color: #e85c0c;
+    color: #fff;
+  }
+  .pagamentos .pagamento-one .dados .values {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .pagamentos .pagamento-one .dados .values .value-item {
+    margin: 8px 0;
+    border-bottom: 0.5px solid #ff880d;
+  }
+  .pagamentos .pagamento-one .dados table th {
+    width: 200px;
+  }
+  @media only screen and (max-width: 991px) {
+    .pagamentos .pagamento-one .dados table th {
+      width: 128px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .pagamentos .pagamento-one .dados .final-value {
+      font-size: 16px;
+    }
+  }
+  .pagamentos .pagamento-one .dados .card-container {
+    margin-bottom: 16px;
+  }
+  @media only screen and (max-width: 991px) {
+    .pagamentos .pagamento-one .dados .jp-card {
+      min-width: 190px;
+    }
+  }
+
+  .table th, .table td {
+      border: none;
+  }

@@ -1,0 +1,339 @@
+@media screen and (max-width: 1190px) and (min-width: 576px) {
+    .results .card-columns {
+      column-count: 2;
+    }
+  }
+  .results .map {
+    position: relative;
+    width: 600px;
+  }
+  .results .map .map-frame {
+    width: 100%;
+    height: 512px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  @media only screen and (max-width: 991px) {
+    .results .map {
+      display: none;
+    }
+  }
+  .results .modal-content {
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .results .modal-content .modal-header {
+    border: none;
+  }
+  .results .filters {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  @media only screen and (max-width: 991px) {
+    .results .filters form {
+      display: flex;
+    }
+  }
+  .results .filters .form-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .results .filters .form-row .custom-select {
+    border-radius: 0;
+    border: 1px solid #ff880d;
+  }
+  .results .filters .form-row .filter-search {
+    height: 100%;
+    border: none;
+    padding: 6px 32px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff880d;
+  }
+  .results .search-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 172, 237, 0.95);
+    z-index: 9999;
+  }
+  @media only screen and (min-width: 992px) {
+    .results .search-wrapper {
+      display: none;
+    }
+  }
+  .results .search-wrapper .card {
+    max-width: 90%;
+    height: auto;
+  }
+  .results .search-wrapper form {
+    display: block;
+  }
+  .results .search-wrapper form .form-control, .results .search-wrapper form .form-group {
+    width: 100%;
+  }
+  .results .search-wrapper form .form-group {
+    margin-top: 16px;
+  }
+  .results .search-wrapper form .btn-home {
+    width: 100%;
+    margin-top: 16px;
+  }
+  @media only screen and (min-width: 992px) {
+    .results .search-wrapper .closeBtn {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .results .search-wrapper .closeBtn {
+      position: fixed;
+      top: 1%;
+      right: 4%;
+      font-size: 32px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  .results .search-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #ff880d;
+  }
+  @media only screen and (min-width: 992px) {
+    .results .search-button {
+      display: none;
+    }
+  }
+  .results .resultsHeader {
+    margin: 64px 0;
+    font-family: "Raleway";
+    color: #1e1e1e;
+  }
+  .results .resultsHeader .resultTitle {
+    font-weight: 700;
+  }
+  .results .resultsHeader .resultSubtitle {
+    font-weight: 300;
+  }
+  .results .resultsCard .tadv-av {
+    width: 50%;
+  }
+  .results .resultsCard .link-book {
+    font-size: 12px;
+    font-weight: 700;
+    color: #00aced;
+    transition: all 0.1s ease;
+  }
+  .results .resultsCard .link-book:hover {
+    color: #ff002b;
+    text-decoration: none;
+  }
+  .results .resultsCard .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: "Raleway";
+    margin-bottom: 16px;
+    height: 200px;
+  }
+  @media only screen and (max-width: 991px) {
+    .results .resultsCard .card {
+      height: auto;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .results .resultsCard .card .card-img {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .results .resultsCard .card h5 {
+    margin-bottom: 0;
+  }
+
+  .discount {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .results .resultsCard .card .badge {
+    background-color: #ff880d;
+    color: #fff;
+    font-family: "Lato";
+  }
+  @media only screen and (max-width: 320px) {
+    .results .resultsCard .card .badge {
+      left: 30%;
+    }
+  }
+  @media screen and (max-width: 767px) and (min-width: 576px) {
+    .results .resultsCard .card .badge {
+      left: 30%;
+    }
+  }
+  .results .resultsCard .card .card-title {
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 700;
+  }
+  .results .resultsCard .card .card-price {
+    color: #ff880d;
+    text-align: right;
+    font-family: "Lato";
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 320px) {
+    .results .resultsCard .card .card-price {
+      font-size: 1.2rem;
+    }
+  }
+  @media screen and (max-width: 1190px) and (min-width: 576px) {
+    .results .resultsCard .card .card-price {
+      font-size: 1.15rem;
+    }
+  }
+  .results .resultsCard .card .card-oldPrice {
+    text-align: right;
+    font-family: "Lato";
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  .results .resultsCard .card .card-rate-1 a, .results .resultsCard .card .card-rate-2 a, .results .resultsCard .card .card-rate-3 a, .results .resultsCard .card .card-rate-4 a, .results .resultsCard .card .card-rate-5 a {
+    color: #00aced;
+    cursor: default;
+  }
+  .results .resultsCard .card .card-rate-1 a:hover, .results .resultsCard .card .card-rate-2 a:hover, .results .resultsCard .card .card-rate-3 a:hover, .results .resultsCard .card .card-rate-4 a:hover, .results .resultsCard .card .card-rate-5 a:hover {
+    text-decoration: none;
+  }
+  .results .resultsCard .card .card-book {
+    margin-top: 16px;
+  }
+  .results .resultsCard .card .card-book .card-endereco {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #aaa;
+  }
+  .results .resultsCard .card .card-book .card-endereco b {
+    color: #1e1e1e;
+  }
+  .results .resultsCard .card .card-book .button-book {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .results .resultsCard .card .card-book .button-book .btn-home {
+    width: auto;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    height: auto;
+    margin-top: 0;
+  }
+  .results .resultsCard .card .card-book .button-book .btn-home:hover {
+    background-color: #e85c0c;
+    color: #fff;
+  }
+  .results form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 991px) {
+    .results form {
+      display: none;
+    }
+  }
+  .results form label {
+    text-transform: uppercase;
+  }
+  .results form .form-group {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  .results form .form-control {
+    border-radius: 0;
+    padding: 8px 16px;
+    height: 40px;
+    font-weight: 300;
+    color: #1e1e1e;
+    border-color: #eee;
+  }
+  @media only screen and (min-width: 992px) {
+    .results form .form-control {
+      width: 256px;
+    }
+  }
+  .results form .form-control::placeholder {
+    color: #ddd;
+  }
+  .results form .btn-home {
+    width: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  .results form .btn-home:hover {
+    background-color: #e85c0c;
+  }
+  .results .navbar {
+    background: #fff !important;
+    padding: 20px;
+    z-index: 9999;
+  }
+  .results .navbar .navbar-nav .nav-item {
+    margin: 0 8px;
+  }
+  .results .navbar .navbar-nav .nav-item .nav-link {
+    color: #ff880d;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+  .results .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #1e1e1e;
+  }
+  @media only screen and (max-width: 991px) {
+    .results .navbar .navbar-nav .nav-item .nav-link {
+      color: #fff;
+    }
+  }
+  .results .navbar .brand-logo {
+    height: 50px;
+    width: auto;
+  }
+  @media only screen and (max-width: 991px) {
+    .results .navbar .navbar-toggler {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-color: #ff880d;
+    }
+    .results .navbar .navbar-toggler i {
+      color: #ff880d;
+    }
+  }
+
+  .results .DateInput_input {
+    padding: 5px 11px 7px;
+  }

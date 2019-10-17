@@ -1,0 +1,35 @@
+.error {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .error .container {
+    text-align: center;
+  }
+  .error .container i {
+    color: #cf3434;
+    font-size: 128px;
+    margin-bottom: 32px;
+  }
+  .error .container h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .error .container .back-btn-2 {
+    padding: 8px 16px;
+    background-color: #ff880d;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  .error .container .back-btn-2:hover {
+    background-color: #e85c0c;
+    text-decoration: none;
+  }
